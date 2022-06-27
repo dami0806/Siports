@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00FFFFFF"
+    android:foregroundTint="#FFFFFF"
+    android:outlineProvider="none"
+    tools:context=".ProfileFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cl_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:focusableInTouchMode="true">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="56dp"
+            android:src="@drawable/ic_edit"
+            app:backgroundTint="#FFFFFF"
+            app:elevation="3dp"
+            app:fabCustomSize="35dp"
+            app:layout_constraintStart_toStartOf="@+id/iv_profile"
+            app:layout_constraintTop_toTopOf="@+id/iv_profile"
+            app:rippleColor="#00FFFFFF"
+            app:tint="@color/siports" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:clickable="true"
+            android:text="닉네임"
+            android:textColor="#000000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_profile" />
+
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@null"
+            android:gravity="center"
+            android:inputType="text"
+            android:maxLength="6"
+            android:outlineProvider="paddedBounds"
+            android:text="닉네임"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:textSize="14dp"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_profile" />
+
+        <TextView
+            android:id="@+id/tv_guide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="프로필 설정"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/iv_profile"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/iv_profile"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_guide" />
+
+        <View
+            android:id="@+id/l_info"
+            android:layout_width="320dp"
+            android:layout_height="1dp"
+            android:background="@color/siports"
+            app:layout_constraintBottom_toTopOf="@+id/cl_info"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_name" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/cl_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <TextView
+                android:id="@+id/tv_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="개인 정보 설정"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/cl_age"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cl_gender">
+
+                <TextView
+                    android:id="@+id/tv_age"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="나이 / Age"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <com.google.android.material.chip.ChipGroup
+                    android:id="@+id/cg_age"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:animateLayoutChanges="false"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_age"
+                    app:singleSelection="true">
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/c_age_10"
+                        style="@style/Widget.MaterialComponents.Chip.Choice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:autoText="false"
+                        android:contextClickable="false"
+                        android:elegantTextHeight="false"
+                        android:freezesText="false"
+                        android:text="10대"
+                        android:textColor="@color/chip_profile_text"
+                        app:chipBackgroundColor="@color/chip_profile_background"
+                        app:chipStrokeColor="#B6B6B6"
+                        app:chipStrokeWidth="0.5dp"
+                        app:rippleColor="#00FFFFFF" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/c_age_20"
+                        style="@style/Widget.MaterialComponents.Chip.Choice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="20대"
+                        android:textColor="@color/chip_profile_text"
+                        app:chipBackgroundColor="@color/chip_profile_background"
+                        app:chipStrokeColor="#B6B6B6"
+                        app:chipStrokeWidth="0.5dp"
+                        app:rippleColor="#00FFFFFF" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/c_age_30"
+                        style="@style/Widget.MaterialComponents.Chip.Choice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="30대"
+                        android:textColor="@color/chip_profile_text"
+                        app:chipBackgroundColor="@color/chip_profile_background"
+                        app:chipStrokeColor="#B6B6B6"
+                        app:chipStrokeWidth="0.5dp"
+                        app:rippleColor="#00FFFFFF" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/c_age_40"
+                        style="@style/Widget.MaterialComponents.Chip.Choice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="40대"
+                        android:textColor="@color/chip_profile_text"
+                        app:chipBackgroundColor="@color/chip_profile_background"
+                        app:chipStrokeColor="#B6B6B6"
+                        app:chipStrokeWidth="0.5dp"
+                        app:rippleColor="#00FFFFFF" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/c_age_50"
+                        style="@style/Widget.MaterialComponents.Chip.Choice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="50대"
+                        android:textColor="@color/chip_profile_text"
+                        app:chipBackgroundColor="@color/chip_profile_background"
+                        app:chipStrokeColor="#B6B6B6"
+                        app:chipStrokeWidth="0.5dp"
+                        app:rippleColor="#00FFFFFF" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/c_age_60"
+                        style="@style/Widget.MaterialComponents.Chip.Choice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="60대"
+                        android:textColor="@color/chip_profile_text"
+                        app:chipBackgroundColor="@color/chip_profile_background"
+                        app:chipStrokeColor="#B6B6B6"
+                        app:chipStrokeWidth="0.5dp"
+                        app:rippleColor="#00FFFFFF" />
+
+                </com.google.android.material.chip.ChipGroup>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/cl_nationality"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_info">
+
+                <TextView
+                    android:id="@+id/tv_nationality"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="국적 / Nationality"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <com.google.android.material.chip.ChipGroup
+                    android:id="@+id/cg_nationality"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    app:layout_constraintStart_toStartOf="@+id/tv_nationality"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_nationality"
+                    app:singleSelection="true">
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/c_nationality_local"
+                        style="@style/Widget.MaterialComponents.Chip.Choice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="내국인"
+                        android:textColor="@color/chip_profile_text"
+                        android:textColorHighlight="#FFFFFF"
+                        app:chipBackgroundColor="@color/chip_profile_background"
+                        app:chipStrokeColor="#B6B6B6"
+                        app:chipStrokeWidth="0.5dp"
+                        app:rippleColor="#00FFFFFF" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/c_nationality_foreign"
+                        style="@style/Widget.MaterialComponents.Chip.Choice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="외국인"
+                        android:textColor="@color/chip_profile_text"
+                        app:chipBackgroundColor="@color/chip_profile_background"
+                        app:chipStrokeColor="#B6B6B6"
+                        app:chipStrokeWidth="0.5dp"
+                        app:rippleColor="#00FFFFFF" />
+                </com.google.android.material.chip.ChipGroup>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/cl_gender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cl_nationality">
+
+                <TextView
+                    android:id="@+id/tv_gender"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="성별 / Gender"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <com.google.android.material.chip.ChipGroup
+                    android:id="@+id/cg_gender"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_gender"
+                    app:singleSelection="true">
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/c_gender_man"
+                        style="@style/Widget.MaterialComponents.Chip.Choice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="남자"
+                        android:textColor="@color/chip_profile_text"
+                        app:chipBackgroundColor="@color/chip_profile_background"
+                        app:chipStrokeColor="#B6B6B6"
+                        app:chipStrokeWidth="0.5dp"
+                        app:rippleColor="#00FFFFFF" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/c_gender_woman"
+                        style="@style/Widget.MaterialComponents.Chip.Choice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="여자"
+                        android:textColor="@color/chip_profile_text"
+                        app:chipBackgroundColor="@color/chip_profile_background"
+                        app:chipStrokeColor="#B6B6B6"
+                        app:chipStrokeWidth="0.5dp"
+                        app:rippleColor="#00FFFFFF" />
+                </com.google.android.material.chip.ChipGroup>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/cl_event"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cl_age">
+
+                <com.google.android.material.chip.ChipGroup
+                    android:id="@+id/cg_event"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    app:layout_constraintStart_toStartOf="@+id/tv_event"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_event"
+                    app:singleSelection="true">
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/c_event_futsal"
+                        style="@style/Widget.MaterialComponents.Chip.Choice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="풋살"
+                        android:textColor="@color/chip_profile_text"
+                        app:chipBackgroundColor="@color/chip_profile_background"
+                        app:chipStrokeColor="#B6B6B6"
+                        app:chipStrokeWidth="0.5dp"
+                        app:rippleColor="#00FFFFFF" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/c_event_soccer"
+                        style="@style/Widget.MaterialComponents.Chip.Choice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="축구"
+                        android:textColor="@color/chip_profile_text"
+                        app:chipBackgroundColor="@color/chip_profile_background"
+                        app:chipStrokeColor="#B6B6B6"
+                        app:chipStrokeWidth="0.5dp"
+                        app:rippleColor="#00FFFFFF" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/c_event_baseball"
+                        style="@style/Widget.MaterialComponents.Chip.Choice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="야구"
+                        android:textColor="@color/chip_profile_text"
+                        app:chipBackgroundColor="@color/chip_profile_background"
+                        app:chipStrokeColor="#B6B6B6"
+                        app:chipStrokeWidth="0.5dp"
+                        app:rippleColor="#00FFFFFF" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/c_event_badminton"
+                        style="@style/Widget.MaterialComponents.Chip.Choice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="배드민턴"
+                        android:textColor="@color/chip_profile_text"
+                        app:chipBackgroundColor="@color/chip_profile_background"
+                        app:chipStrokeColor="#B6B6B6"
+                        app:chipStrokeWidth="0.5dp"
+                        app:rippleColor="#00FFFFFF" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/c_event_sports"
+                        style="@style/Widget.MaterialComponents.Chip.Choice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="생활체육"
+                        android:textColor="@color/chip_profile_text"
+                        app:chipBackgroundColor="@color/chip_profile_background"
+                        app:chipStrokeColor="#B6B6B6"
+                        app:chipStrokeWidth="0.5dp"
+                        app:rippleColor="#00FFFFFF" />
+                </com.google.android.material.chip.ChipGroup>
+
+                <TextView
+                    android:id="@+id/tv_event"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="종목 / Event"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

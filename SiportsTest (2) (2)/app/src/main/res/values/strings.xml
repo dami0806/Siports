@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SiportsTest</string>
+    <string name="app_title">MyWeather</string>
+    <string name="weather_url">http://api.openweathermap.org/</string>
+    <string name="weather_app_id">5b864bb18522c6113bbadccae9db13a5</string>
+    <string name="weather_seoul_id">1843564</string>
+</resources>

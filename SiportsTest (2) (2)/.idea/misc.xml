@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/bjb99/AndroidStudioProjects/SiportsTest/SiportsTest/app/src/main/res/layout/activity_home.xml" value="0.1" />
+        <entry key="..\:/Users/bjb99/AndroidStudioProjects/SiportsTest/SiportsTest/app/src/main/res/layout/activity_join.xml" value="0.15579710144927536" />
+        <entry key="..\:/Users/bjb99/AndroidStudioProjects/SiportsTest/SiportsTest/app/src/main/res/layout/activity_main.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/bjb99/AndroidStudioProjects/SiportsTest/SiportsTest/app/src/main/res/layout/activity_main2.xml" value="0.13134057971014493" />
+        <entry key="..\:/Users/bjb99/AndroidStudioProjects/SiportsTest/SiportsTest/app/src/main/res/layout/activity_map.xml" value="0.10099637681159421" />
+        <entry key="..\:/Users/bjb99/AndroidStudioProjects/SiportsTest/SiportsTest/app/src/main/res/layout/balloon_layout.xml" value="0.1" />
+        <entry key="..\:/Users/bjb99/AndroidStudioProjects/SiportsTest/SiportsTest/app/src/main/res/layout/fragment_chat.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/bjb99/AndroidStudioProjects/SiportsTest/SiportsTest/app/src/main/res/layout/fragment_map.xml" value="0.1" />
+        <entry key="..\:/Users/bjb99/AndroidStudioProjects/SiportsTest/SiportsTest/app/src/main/res/layout/fragment_profile.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/bjb99/AndroidStudioProjects/SiportsTest/SiportsTest/app/src/main/res/menu/menu_home_bottom.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/bor2h/AndroidStudioProjects/SiportsTest/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.266" />
+        <entry key="..\:/Users/bor2h/AndroidStudioProjects/SiportsTest/app/src/main/res/drawable/bnv_ic_chat.xml" value="0.266" />
+        <entry key="..\:/Users/bor2h/AndroidStudioProjects/SiportsTest/app/src/main/res/drawable/bnv_ic_color.xml" value="0.263" />
+        <entry key="..\:/Users/bor2h/AndroidStudioProjects/SiportsTest/app/src/main/res/drawable/bnv_ic_home.xml" value="0.266" />
+        <entry key="..\:/Users/bor2h/AndroidStudioProjects/SiportsTest/app/src/main/res/drawable/bnv_ic_map.xml" value="0.266" />
+        <entry key="..\:/Users/bor2h/AndroidStudioProjects/SiportsTest/app/src/main/res/drawable/bnv_ic_profile.xml" value="0.263" />
+        <entry key="..\:/Users/bor2h/AndroidStudioProjects/SiportsTest/app/src/main/res/drawable/bottom_icon_chat.xml" value="0.266" />
+        <entry key="..\:/Users/bor2h/AndroidStudioProjects/SiportsTest/app/src/main/res/drawable/bottom_icon_color.xml" value="0.2635" />
+        <entry key="..\:/Users/bor2h/AndroidStudioProjects/SiportsTest/app/src/main/res/drawable/bottom_icon_home.xml" value="0.266" />
+        <entry key="..\:/Users/bor2h/AndroidStudioProjects/SiportsTest/app/src/main/res/drawable/bottom_icon_map.xml" value="0.266" />
+        <entry key="..\:/Users/bor2h/AndroidStudioProjects/SiportsTest/app/src/main/res/drawable/bottom_icon_profile.xml" value="0.266" />
+        <entry key="..\:/Users/bor2h/AndroidStudioProjects/SiportsTest/app/src/main/res/drawable/ic_launcher_background.xml" value="0.266" />
+        <entry key="..\:/Users/bor2h/AndroidStudioProjects/SiportsTest/app/src/main/res/layout/activity_home.xml" value="0.4703125" />
+        <entry key="..\:/Users/bor2h/AndroidStudioProjects/SiportsTest/app/src/main/res/layout/activity_join.xml" value="0.264" />
+        <entry key="..\:/Users/bor2h/AndroidStudioProjects/SiportsTest/app/src/main/res/layout/activity_main.xml" value="0.4" />
+        <entry key="..\:/Users/bor2h/AndroidStudioProjects/SiportsTest/app/src/main/res/layout/activity_weather.xml" value="0.4" />
+        <entry key="..\:/Users/bor2h/AndroidStudioProjects/SiportsTest/app/src/main/res/layout/fragment_chat.xml" value="0.4666666666666667" />
+        <entry key="..\:/Users/bor2h/AndroidStudioProjects/SiportsTest/app/src/main/res/layout/fragment_home.xml" value="0.4" />
+        <entry key="..\:/Users/bor2h/AndroidStudioProjects/SiportsTest/app/src/main/res/layout/fragment_map.xml" value="0.4666666666666667" />
+        <entry key="..\:/Users/bor2h/AndroidStudioProjects/SiportsTest/app/src/main/res/layout/fragment_profile.xml" value="0.4666666666666667" />
+        <entry key="..\:/Users/bor2h/AndroidStudioProjects/SiportsTest/app/src/main/res/layout/item_recyclerview_weather.xml" value="0.536" />
+        <entry key="..\:/Users/bor2h/AndroidStudioProjects/SiportsTest/app/src/main/res/layout/list_item.xml" value="0.72" />
+        <entry key="..\:/Users/bor2h/AndroidStudioProjects/SiportsTest/app/src/main/res/menu/menu_home.xml" value="0.4666666666666667" />
+        <entry key="..\:/Users/bor2h/AndroidStudioProjects/SiportsTest/app/src/main/res/menu/menu_home_bottom.xml" value="0.45" />
+        <entry key="..\:/Users/bor2h/AndroidStudioProjects/SiportsTest/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.266" />
+        <entry key="..\:/Users/bor2h/Desktop/SiportsTest (2) (2)/app/src/main/res/layout/activity_board_edit.xml" value="0.1" />
+        <entry key="..\:/Users/bor2h/Desktop/SiportsTest (2) (2)/app/src/main/res/layout/activity_board_inside.xml" value="0.176" />
+        <entry key="..\:/Users/bor2h/Desktop/SiportsTest (2) (2)/app/src/main/res/layout/activity_board_write_main.xml" value="0.1" />
+        <entry key="..\:/Users/bor2h/Desktop/SiportsTest (2) (2)/app/src/main/res/layout/activity_join.xml" value="0.259375" />
+        <entry key="..\:/Users/bor2h/Desktop/SiportsTest (2) (2)/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/bor2h/Desktop/SiportsTest (2) (2)/app/src/main/res/layout/activity_noti_list.xml" value="0.1" />
+        <entry key="..\:/Users/bor2h/Desktop/SiportsTest (2) (2)/app/src/main/res/layout/activity_talk.xml" value="0.4" />
+        <entry key="..\:/Users/bor2h/Desktop/SiportsTest (2) (2)/app/src/main/res/layout/activity_write.xml" value="0.1" />
+        <entry key="..\:/Users/bor2h/Desktop/SiportsTest (2) (2)/app/src/main/res/layout/board_list_item.xml" value="0.259375" />
+        <entry key="..\:/Users/bor2h/Desktop/SiportsTest (2) (2)/app/src/main/res/layout/fragment_profile.xml" value="0.2859375" />
+        <entry key="..\:/Users/bor2h/Desktop/SiportsTest (2) (2)/app/src/main/res/layout/item_recyclerview_weather.xml" value="0.1" />
+        <entry key="..\:/Users/bor2h/Desktop/SiportsTest (2) (2)/app/src/main/res/layout/request_send_dialog.xml" value="0.1" />
+        <entry key="..\:/Users/bor2h/Desktop/SiportsTest (2) (2)/app/src/main/res/layout/send_dialog.xml" value="0.1" />
+        <entry key="..\:/Users/bor2h/Desktop/SiportsTest (2) (2)/app/src/main/res/layout/show_passwd_dialog.xml" value="0.1" />
+        <entry key="..\:/Users/bor2h/Desktop/SiportsTest (2)/app/src/main/res/layout/activity_board_edit.xml" value="0.2833333333333333" />
+        <entry key="..\:/Users/bor2h/Desktop/SiportsTest (2)/app/src/main/res/layout/activity_board_inside.xml" value="0.2833333333333333" />
+        <entry key="..\:/Users/bor2h/Desktop/SiportsTest (2)/app/src/main/res/layout/activity_board_write_main.xml" value="0.2833333333333333" />
+        <entry key="..\:/Users/bor2h/Desktop/SiportsTest (2)/app/src/main/res/layout/activity_join.xml" value="0.2833333333333333" />
+        <entry key="..\:/Users/bor2h/Desktop/SiportsTest (2)/app/src/main/res/layout/activity_main.xml" value="0.2833333333333333" />
+        <entry key="..\:/Users/bor2h/Desktop/SiportsTest (2)/app/src/main/res/layout/activity_main2.xml" value="0.2833333333333333" />
+        <entry key="..\:/Users/bor2h/Desktop/SiportsTest (2)/app/src/main/res/layout/activity_noti_list.xml" value="0.2833333333333333" />
+        <entry key="..\:/Users/bor2h/Desktop/SiportsTest (2)/app/src/main/res/layout/activity_talk.xml" value="0.2833333333333333" />
+        <entry key="..\:/Users/bor2h/Desktop/SiportsTest (2)/app/src/main/res/layout/activity_write.xml" value="0.2833333333333333" />
+        <entry key="..\:/Users/bor2h/Desktop/SiportsTest (2)/app/src/main/res/layout/balloon_layout.xml" value="0.2833333333333333" />
+        <entry key="..\:/Users/bor2h/Desktop/SiportsTest (2)/app/src/main/res/layout/dialog.xml" value="0.2833333333333333" />
+        <entry key="..\:/Users/bor2h/Desktop/SiportsTest (2)/app/src/main/res/layout/fragment_chat.xml" value="0.2833333333333333" />
+        <entry key="..\:/Users/bor2h/Desktop/SiportsTest (2)/app/src/main/res/layout/fragment_map.xml" value="0.2833333333333333" />
+        <entry key="..\:/Users/bor2h/Desktop/SiportsTest (2)/app/src/main/res/layout/send_dialog.xml" value="0.2833333333333333" />
+        <entry key="..\:/Users/bor2h/Desktop/SiportsTest (2)/app/src/main/res/layout/show_passwd_dialog.xml" value="0.2833333333333333" />
+        <entry key="..\:/Users/smwoo/AndroidStudioProjects/SiportsTest (2)/app/src/main/res/layout/activity_board_inside.xml" value="0.25" />
+        <entry key="..\:/Users/smwoo/AndroidStudioProjects/SiportsTest (2)/app/src/main/res/layout/request_send_dialog.xml" value="0.25" />
+        <entry key="..\:/Users/smwoo/AndroidStudioProjects/SiportsTest (2)/app/src/main/res/layout/send_dialog.xml" value="0.264" />
+        <entry key="..\:/Users/smwoo/AndroidStudioProjects/SiportsTest (2)/app/src/main/res/layout/show_passwd_dialog.xml" value="0.25" />
+        <entry key="..\:/Users/smwoo/AndroidStudioProjects/SiportsTest/app/src/main/res/drawable/background_radius.xml" value="0.1665" />
+        <entry key="..\:/Users/smwoo/AndroidStudioProjects/SiportsTest/app/src/main/res/drawable/noti_textview.xml" value="0.1665" />
+        <entry key="..\:/Users/smwoo/AndroidStudioProjects/SiportsTest/app/src/main/res/layout/activity_board_edit.xml" value="0.25" />
+        <entry key="..\:/Users/smwoo/AndroidStudioProjects/SiportsTest/app/src/main/res/layout/activity_board_inside.xml" value="0.25" />
+        <entry key="..\:/Users/smwoo/AndroidStudioProjects/SiportsTest/app/src/main/res/layout/activity_board_write_main.xml" value="0.25" />
+        <entry key="..\:/Users/smwoo/AndroidStudioProjects/SiportsTest/app/src/main/res/layout/activity_main2.xml" value="0.25" />
+        <entry key="..\:/Users/smwoo/AndroidStudioProjects/SiportsTest/app/src/main/res/layout/activity_noti_list.xml" value="0.25" />
+        <entry key="..\:/Users/smwoo/AndroidStudioProjects/SiportsTest/app/src/main/res/layout/activity_talk.xml" value="0.25" />
+        <entry key="..\:/Users/smwoo/AndroidStudioProjects/SiportsTest/app/src/main/res/layout/activity_write.xml" value="0.25" />
+        <entry key="..\:/Users/smwoo/AndroidStudioProjects/SiportsTest/app/src/main/res/layout/balloon_layout.xml" value="0.25" />
+        <entry key="..\:/Users/smwoo/AndroidStudioProjects/SiportsTest/app/src/main/res/layout/board_list_item.xml" value="0.25" />
+        <entry key="..\:/Users/smwoo/AndroidStudioProjects/SiportsTest/app/src/main/res/layout/chat_list_item.xml" value="0.25" />
+        <entry key="..\:/Users/smwoo/AndroidStudioProjects/SiportsTest/app/src/main/res/layout/fragment_map.xml" value="0.12335359675785208" />
+        <entry key="..\:/Users/smwoo/AndroidStudioProjects/SiportsTest/app/src/main/res/layout/send_dialog.xml" value="0.25" />
+        <entry key="..\:/Users/smwoo/AndroidStudioProjects/SiportsTest/app/src/main/res/layout/show_passwd_dialog.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

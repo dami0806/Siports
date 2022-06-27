@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "27142098309",
+    "project_id": "siportstest",
+    "storage_bucket": "siportstest.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:27142098309:android:b936f47b25a7744cb908ec",
+        "android_client_info": {
+          "package_name": "com.bor2h.siportstest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "27142098309-l5g03l9770rmpohj53ndha1httc1nj1k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bor2h.siportstest",
+            "certificate_hash": "e603811bdee3fee4a6a733721f76f3d6c9d84e34"
+          }
+        },
+        {
+          "client_id": "27142098309-4sb8en8glbhst4tl13i2lh0sdtrss96u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCx8Cy-BekA8FBedJ9tNK4lT0-HkJ7_Q3k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "27142098309-4sb8en8glbhst4tl13i2lh0sdtrss96u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

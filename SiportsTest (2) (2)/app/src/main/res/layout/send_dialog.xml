@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center|left"
+    android:padding="5dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="이름과 오픈채팅방 비밀번호를 입력 후 전송 버튼을 누르세요."
+        android:textSize="22dp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="이름"
+        android:textSize="19dp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="15dp"/>
+
+    <EditText
+        android:id="@+id/editName2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="별명이나 이름 입력"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="오픈채팅방 비밀번호"
+        android:textSize="19dp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="15dp"/>
+
+    <EditText
+        android:id="@+id/editPasswd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="오픈채팅방 비밀번호 입력"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/requestSendBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="전송"
+            android:textSize="20dp"
+            android:layout_marginRight="30dp"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
